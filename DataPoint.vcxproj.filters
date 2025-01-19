@@ -18,9 +18,15 @@
     <ClCompile Include="quarter.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="DataPoint.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="quarter.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPoint.h">
       <Filter>Pliki źródłowe</Filter>
     </ClInclude>
   </ItemGroup>
