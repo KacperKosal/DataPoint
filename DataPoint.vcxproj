@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DataPoint.cpp" />
+    <ClCompile Include="month.cpp" />
     <ClCompile Include="quarter.cpp" />
     <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataPoint.h" />
+    <ClInclude Include="month.h" />
     <ClInclude Include="quarter.h" />
     <ClInclude Include="Tree.h" />
   </ItemGroup>
