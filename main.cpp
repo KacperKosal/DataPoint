@@ -8,7 +8,7 @@ int main() {
     std::ifstream file("data.csv");
     std::string line;
     Tree dataTree;
-
+       
     // Pomiñ nag³ówek
     std::getline(file, line);
 
@@ -16,7 +16,7 @@ int main() {
     while (std::getline(file, line)) {
         std::istringstream ss(line);
         std::string dateTime, autoConsumption, exportPower, importPower, consumption, production;
-
+          
         std::getline(ss, dateTime, ',');
         std::getline(ss, autoConsumption, ',');
         std::getline(ss, exportPower, ',');
@@ -28,7 +28,7 @@ int main() {
             std::stod(importPower), std::stod(consumption), std::stod(production));
         dataTree.addDataPoint(point);
     }
-
+       
     file.close();
     return 0;
 }
