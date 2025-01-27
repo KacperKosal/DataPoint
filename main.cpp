@@ -12,6 +12,7 @@ int main() {
     // Pomiñ nag³ówek
     std::getline(file, line);
 
+
     while (std::getline(file, line)) {
         std::istringstream ss(line);
         std::string dateTime, autoConsumption, exportPower, importPower, consumption, production;
