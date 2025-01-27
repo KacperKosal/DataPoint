@@ -10,8 +10,8 @@ DataPoint::DataPoint(const std::string& dateTimeStr, double autoConsumption, dou
     dateTime = parseDateTime(dateTimeStr);
 }
 
-std::time_t DataPoint::parseDateTime(const std::string& dateTimeStr) 
-{
+std::time_t DataPoint::parseDateTime(const std::string& dateTimeStr) {
+
     std::tm tm = {};
     std::istringstream ss(dateTimeStr);
     ss >> std::get_time(&tm, "%Y-%m-%d %H:%M:%S");
