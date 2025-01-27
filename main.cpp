@@ -8,7 +8,7 @@ int main() {
     std::ifstream file("data.csv");
     std::string line;
     Tree dataTree;
-
+       
     // Pomiñ nag³ówek
     std::getline(file, line);
 
