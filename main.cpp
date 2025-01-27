@@ -27,7 +27,7 @@ int main() {
             std::stod(importPower), std::stod(consumption), std::stod(production));
         dataTree.addDataPoint(point);
     }
-
+       
     file.close();
     return 0;
 }
