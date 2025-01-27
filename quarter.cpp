@@ -7,7 +7,8 @@ void Quarter::addDataPoint(DataPoint* point)
 
 void Quarter::sortData() 
 {
-    std::sort(dataPoints.begin(), dataPoints.end(), [](DataPoint* a, DataPoint* b) {
+    std::sort(dataPoints.begin(), dataPoints.end(), [](DataPoint* a, DataPoint* b) 
+        {
         return a->dateTime < b->dateTime;
         });
 }
