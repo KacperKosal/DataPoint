@@ -12,4 +12,5 @@ public:
     void addDataPoint(DataPoint* point);
 };
 
+
 #endif // TREE_H
