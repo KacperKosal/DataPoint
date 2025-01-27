@@ -5,11 +5,13 @@
 #include <vector>
 #include <algorithm>
 
-class Quarter {
+class Quarter 
+{
 public:
     std::vector<DataPoint> dataPoints;
 
     void addDataPoint(DataPoint point);
+
     void sortData();
 };
 
