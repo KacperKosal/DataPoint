@@ -15,7 +15,7 @@ int main() {
     while (std::getline(file, line)) {
         std::istringstream ss(line);
         std::string dateTime, autoConsumption, exportPower, importPower, consumption, production;
-
+          
         std::getline(ss, dateTime, ',');
         std::getline(ss, autoConsumption, ',');
         std::getline(ss, exportPower, ',');
